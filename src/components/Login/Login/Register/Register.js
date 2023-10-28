@@ -133,7 +133,6 @@ const Register = () => {
                                             Already have an account? Login
                                         </Link>
                                     </Button>
-
                                 </Grid>
                             </Grid>
                             <Grid container sx={{ mt: 2, mb: 3 }} justifyContent="flex-end">
