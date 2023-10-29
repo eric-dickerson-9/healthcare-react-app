@@ -25,7 +25,7 @@ function Copyright(props) {
     return (
         <Typography variant="body2" color="text.secondary" align="center" {...props}>
             {'Developed with 🖤 by '}
-            <strong><a className='text-style' href="https://github.com/Foy5al" target="_blank" rel="noreferrer noopener">Mohammd Foysal</a> </strong>{'Copyright ©'}
+            <strong><a className='text-style' href="#" target="_blank" rel="noreferrer noopener">Eric Dickerson</a> </strong>{'Copyright ©'}
             {new Date().getFullYear()}
             {'.'}
         </Typography>
@@ -53,7 +53,7 @@ const Footer = () => {
                                             color='primary'
                                             fontSize='large' />
                                     </Avatar>
-                                    Health Haven Hospital
+                                    Health Hospital
                                 </Typography>
                                 <Divider />
                             </Box>
@@ -64,7 +64,7 @@ const Footer = () => {
                                 spacing={1} >
                                 <Avatar sx={{ mt: 1, bgcolor: pink[500] }}>
                                     <LocationOnIcon />
-                                </Avatar><span>Tejgaon I/A, Dhaka-1208</span>
+                                </Avatar><span>738 Eaverson St, Jacksonville, FL</span>
                             </Stack >
 
                             <Stack direction="row"
@@ -74,8 +74,8 @@ const Footer = () => {
                                 <Avatar sx={{ mb: 1, mt: 1, bgcolor: pink[500] }}>
                                     <EmailIcon />
                                 </Avatar>
-                                <a className='text-style' href="mailto:mh.foysal.h@gmail.com">
-                                    mh.foysal.h@gmail.com
+                                <a className='text-style' href="ericdickerson0127@gmail.com">
+                                    ericdickerson0127@gmail.com
                                 </a>
                             </Stack >
 
@@ -86,8 +86,8 @@ const Footer = () => {
                                 <Avatar sx={{ mb: 1, bgcolor: pink[500] }}>
                                     <CallIcon />
                                 </Avatar>
-                                <a className='text-style' href="tel:01680xxx86">
-                                    01680xxx86
+                                <a className='text-style' href="tel:13232879385">
+                                    3232879385
                                 </a>
                             </Stack >
 
@@ -124,41 +124,14 @@ const Footer = () => {
                                 justifyContent="flex-start"
                                 alignItems="center"
                                 spacing={1} >
-                                <Avatar sx={{ mb: 1, mt: 1, bgcolor: pink[500] }}>
-                                    <FacebookIcon />
-                                </Avatar>
-                                <a className='text-style' href="https://www.facebook.com/iamfoysal.h" target="_blank" rel="noopener noreferrer" >
-                                    Foysal on Facebook
-                                </a>
-                            </Stack >
-
-                            <Stack direction="row"
-                                justifyContent="flex-start"
-                                alignItems="center"
-                                spacing={1} >
                                 <Avatar sx={{ mb: 1, bgcolor: pink[500] }}>
                                     <LinkedInIcon />
                                 </Avatar>
-                                <a className='text-style' href="https://www.linkedin.com/in/md-foysal-h/" target="_blank" rel="noopener noreferrer" >
-                                    Foysal on LinkedIn
+                                <a className='text-style' href="https://www.linkedin.com/in/eric0127/" target="_blank" rel="noopener noreferrer" >
+                                    Eric on LinkedIn
                                 </a>
                             </Stack >
-
-                            <Stack direction="row"
-                                justifyContent="flex-start"
-                                alignItems="center"
-                                spacing={1} >
-                                <Avatar sx={{ mb: 1, bgcolor: pink[500] }}>
-                                    <GitHubIcon />
-                                </Avatar>
-                                <a className='text-style' href="https://github.com/Foy5al" target="_blank" rel="noopener noreferrer" >
-                                    Foysal on GitHub
-                                </a>
-                            </Stack >
-
-
                         </Grid>
-
                     </Grid>
                     <Divider sx={{ mb: 2 }} />
                     <Copyright sx={{ mt: 5 }} />

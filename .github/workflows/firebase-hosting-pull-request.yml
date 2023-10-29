@@ -14,4 +14,4 @@ jobs:
         with:
           repoToken: '${{ secrets.GITHUB_TOKEN }}'
           firebaseServiceAccount: '${{ secrets.FIREBASE_SERVICE_ACCOUNT_HEALTHCARE_SERVICE_REACT_APP }}'
-          projectId: healthcare-service-react-app
+          projectId: healthcare-service-react
